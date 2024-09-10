@@ -1,0 +1,78 @@
+body {
+    font-family: "Reddit Sans Condensed", sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('./img/bg.jpg');
+}
+.header{
+    background-color: white;
+    padding: 20px;
+}
+.left {
+    position: absolute;
+    left: 35px;
+    top: 16px;
+    display: inline-block;
+}
+
+.left img {
+    width: 136px;
+}
+
+.mid {
+    display: block;
+    width: 28%;
+    margin: 0px auto;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 35px;
+    top: 25px;
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 15px
+}
+
+.navbar li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: #f8a345;
+    text-decoration: underline;
+}
+
+.btn {
+    font-family: "Reddit Sans Condensed", sans-serif;
+    margin: 0px 12px;
+    background-color: #f8a345;
+    padding: 12px 21px;
+    border-radius: 8px;
+    border: 1px solid #f8a345;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #ffbd72;
+}
+/* .container{
+    border: 2px solid green;
+    margin: 2px ;
+    padding: 2px;
+    width: 33px;
+    border-radius: 2px;
+} */
